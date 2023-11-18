@@ -4,5 +4,5 @@ Integrantes:
 Natalia Miranda
 Eliseo Orozco
 Adriana  Van Den Dooren
-Belen 
+Maria Belen Venturini
 Orlando Sposto
