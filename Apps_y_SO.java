@@ -1,35 +1,22 @@
+import java.util.List;
 
-import java.util.*;
-
-/**
- * 
- */
 public class Apps_y_SO {
 
-    /**
-     * Default constructor
-     */
-    public Apps_y_SO() {
-    }
-
-    /**
-     * 
-     */
-    public List App_SO;
+    private List<Object> app_SO;
 
     /**
      * @return
      */
-    public List getApp_SO() {
-        // TODO implement here
-        return null;
+    public List<Object> getApp_SO() {
+        // TODO implementar aquí la lógica real
+        return app_SO;
     }
 
     /**
      * @param value
      */
-    public void setApp_SO(List value) {
-        // TODO implement here
+    public void setApp_SO(List<Object> value) {
+        // TODO implementar aquí la lógica real
+        app_SO = value;
     }
-
 }

@@ -5,7 +5,7 @@ public abstract class Area {
     public Area() {
         Lista = new ArrayList<>();
     }
-    public abstract void mostarElemento();
+    public abstract void mostrarElemento();
     public void agregarElemento(Object elemento) {
         Lista.add(elemento);
     }

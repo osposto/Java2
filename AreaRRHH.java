@@ -1,30 +1,42 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class AreaRRHH extends Area {
-    private ArrayList<Tecnico> Lista;
+    private List<Tecnicos> Lista;
+
     public AreaRRHH() {
-        Lista = new ArrayList<Tecnico>();
+        Lista = new ArrayList<>();
     }
+
     @Override
-    public void mostarElemento() {
-        System.out.println("Mostrando Lista de Tecnicos");
+    public void mostrarElemento() {
+        System.out.println("Mostrando Lista de Tecnicos:");
+        for (Tecnicos tecnico : Lista) {
+            System.out.println(tecnico);
+        }
     }
-    public void agregarTecnico(Tecnico tecnico) {
+
+    public void agregarTecnico(Tecnicos tecnico) {
         Lista.add(tecnico);
     }
-    public void eliminarTecnico(Tecnico tecnico) {
+
+    public void eliminarTecnico(Tecnicos tecnico) {
         Lista.remove(tecnico);
     }
-    public ArrayList<Tecnico> obtenerListaTecnicos() {
+
+    public List<Tecnicos> obtenerListaTecnicos() {
         return Lista;
     }
-    public ArrayList<Tecnico> getLista() {
+
+    public List<Tecnicos> getLista() {
         return Lista;
     }
-    public void setLista(ArrayList<Tecnico> lista) {
+
+    public void setLista(List<Tecnicos> lista) {
         Lista = lista;
     }
-    public Reporte emitirReporte(){
+
+    public Reporte emitirReporte() {
         Reporte reporteNew = new Reporte();
         return reporteNew;
     }

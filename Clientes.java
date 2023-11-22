@@ -1,175 +1,81 @@
-
-import java.util.*;
-
-/**
- * 
- */
 public class Clientes {
 
-    /**
-     * Default constructor
-     */
+    private String clienteId;
+    private String razonSocial;
+    private String cuitCuil;
+    private String direccion;
+    private String email;
+    private String telefono;
+    private String observaciones;
+    private Apps_y_SO vectorApps;
+
+    // Constructor por defecto
     public Clientes() {
+        
     }
 
-    /**
-     * 
-     */
-    public String clienteId;
-
-    /**
-     * 
-     */
-    public String razonSocial;
-
-    /**
-     * 
-     */
-    public String cuit_cuil;
-
-    /**
-     * 
-     */
-    public String dirección;
-
-    /**
-     * 
-     */
-    public String email;
-
-    /**
-     * 
-     */
-    public String telefono;
-
-    /**
-     * 
-     */
-    public String observaciones;
-
-    /**
-     * 
-     */
-    public Apps_y_SO VectorApps;
-
-    /**
-     * @return
-     */
     public String getClienteId() {
-        // TODO implement here
-        return "";
+        return clienteId;
     }
 
-    /**
-     * @param value
-     */
-    public void setClienteId(String value) {
-        // TODO implement here
+    public void setClienteId(String clienteId) {
+        this.clienteId = clienteId;
     }
 
-    /**
-     * @return
-     */
     public String getRazonSocial() {
-        // TODO implement here
-        return "";
+        return razonSocial;
     }
 
-    /**
-     * @param value
-     */
-    public void setRazonSocial(String value) {
-        // TODO implement here
+    public void setRazonSocial(String razonSocial) {
+        this.razonSocial = razonSocial;
     }
 
-    /**
-     * @return
-     */
-    public String getCuit_cuil() {
-        // TODO implement here
-        return "";
+    public String getCuitCuil() {
+        return cuitCuil;
     }
 
-    /**
-     * @param value
-     */
-    public void setCuit_cuil(String value) {
-        // TODO implement here
+    public void setCuitCuil(String cuitCuil) {
+        this.cuitCuil = cuitCuil;
     }
 
-    /**
-     * @return
-     */
-    public String getDirección() {
-        // TODO implement here
-        return "";
+    public String getDireccion() {
+        return direccion;
     }
 
-    /**
-     * @param value
-     */
-    public void setDirección(String value) {
-        // TODO implement here
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
     }
 
-    /**
-     * @return
-     */
     public String getEmail() {
-        // TODO implement here
-        return "";
+        return email;
     }
 
-    /**
-     * @param value
-     */
-    public void setEmail(String value) {
-        // TODO implement here
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    /**
-     * @return
-     */
     public String getTelefono() {
-        // TODO implement here
-        return "";
+        return telefono;
     }
 
-    /**
-     * @param value
-     */
-    public void setTelefono(String value) {
-        // TODO implement here
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
     }
 
-    /**
-     * @return
-     */
     public String getObservaciones() {
-        // TODO implement here
-        return "";
+        return observaciones;
     }
 
-    /**
-     * @param value
-     */
-    public void setObservaciones(String value) {
-        // TODO implement here
+    public void setObservaciones(String observaciones) {
+        this.observaciones = observaciones;
     }
 
-    /**
-     * @return
-     */
     public Apps_y_SO getVectorApps() {
-        // TODO implement here
-        return null;
+        return vectorApps;
     }
 
-    /**
-     * @param value
-     */
-    public void setVectorApps(Apps_y_SO value) {
-        // TODO implement here
+    public void setVectorApps(Apps_y_SO vectorApps) {
+        this.vectorApps = vectorApps;
     }
-
 }
+

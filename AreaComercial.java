@@ -1,28 +1,35 @@
 import java.util.ArrayList;
 
 public class AreaComercial extends Area {
-    private ArrayList<Cliente> Lista;
+    private ArrayList<Clientes> Lista;
 
     public AreaComercial() {
-        Lista = new ArrayList<Cliente>();
+        Lista = new ArrayList<Clientes>();
     }
+
     @Override
-    public void mostarElemento() {
+    public void mostrarElemento() {
         System.out.println("Mostrando Lista de Clientes");
     }
-    public ArrayList<Cliente> getLista() {
+
+    public ArrayList<Clientes> getLista() {
         return Lista;
     }
-    public void setLista(ArrayList<Cliente> lista) {
+
+    public void setLista(ArrayList<Clientes> lista) {
         Lista = lista;
     }
-    public void agregarCliente(Cliente cliente) {
+
+    public void agregarCliente(Clientes cliente) {
         Lista.add(cliente);
     }
-    public void eliminarCliente(Cliente cliente) {
+
+    public void eliminarCliente(Clientes cliente) {
         Lista.remove(cliente);
     }
-    public ArrayList<Cliente> obtenerListaClientes() {
+
+    public ArrayList<Clientes> obtenerListaClientes() {
         return Lista;
     }
 }
+
